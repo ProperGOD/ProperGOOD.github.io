@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+main{
+    background-color: aquamarine;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    background: #0890a8;
+    line-height: 75px;
+    padding: 0px 100px;
+    z-index: 1;
+    position: fixed;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+nav .logo p{
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    color: darkkhaki;
+}
+
+nav ul li a{
+    color: white;
+    padding: 0px 32px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+nav ul li :hover {
+    color: rgb(145, 145, 145);
+    transition: 0.5s;
+}
+
+.Image {
+    border-radius: 76px;
+    width: 190px;
+    margin-top: 200px;
+    margin-left: 43.1%;
+}
+
+.bitu {
+    border-color: transparent;
+    border-radius: 40px;
+    width: 410px;
+    margin-top: 20px;
+    margin-left: 35.4%;
+    height: 30px;
+    background-image: linear-gradient(to right, #db1bf6, #19d7f8);
+}
+
+.noodles h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+}
+
+.container {
+    width: 80%;
+    margin-top: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 40px;
+}
+
+.con-box{
+    background-color: white;
+    display: flex;
+    margin-left: 17%;
+}
+
+.con-mes{
+    flex-basis: 80%;
+    padding: 40px 60px;
+}
+
+.con-info{
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: #0813a8;
+    color: #fff;
+}
+
+.inpa {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inpa .inpu {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    color: #0813a8;
+    margin-bottom: 5px;
+}
+
+button{
+    background-color: #0813a8;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(28, 0, 181, 0.3);
+    transition: 0.6s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.con-mes{
+    color: #0813a8;
+    margin-bottom: 5px;
+}
+
+.con-info h3{
+    padding-bottom: 40px;
+}
+
+table tr td{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.con-mes h3{
+    padding-bottom: 20px;
+}
+
+
+footer img{
+    width: 50px;
+}
+
+footer h4{
+    color: gray;
+    margin-left: 4%;
+    margin-top: -3%;
+    font-size: 17px;
+}
+
+footer p{
+    color: lightslategray;
+    font-size: 14px;
+    margin-left: 11%;
+    margin-top: -1.5%;
+
+}

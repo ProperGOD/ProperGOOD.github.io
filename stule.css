@@ -1,0 +1,77 @@
+
+
+
+
+
+
+.bitton {
+    border-color: transparent;
+    border-radius: 10px;
+    color:white;
+    height: 40px;
+    background: orangered;
+    width: 150px;
+}
+
+
+.balont {
+    border-radius: 20px;
+    border-color: black;
+    font-family: "Aldrich";
+    height: 32px;
+    width: 160px;
+    text-align: center;
+    
+}
+
+.balonts {
+    border-radius: 20px;
+    border-color: black;
+    font-family: "Aldrich";
+    height: 32px;
+    width: 170px;
+    text-align: center;
+    
+}
+
+.pos {
+    position: center;
+}
+
+
+.navbar {
+    font-family: sans-serif;
+    background:blueviolet;
+    border: transparent;
+    border-radius: 12px;
+    text-decoration-color: white;
+    height: 50px;
+    text-orientation: sideways;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.lala {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+}
+
+
+.la {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+.aaa {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.bitton :hover{
+    background: rgb(129, 37, 3);
+}
